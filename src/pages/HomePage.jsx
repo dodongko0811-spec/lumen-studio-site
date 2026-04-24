@@ -9,9 +9,9 @@ const metrics = [
 ];
 
 const services = [
-  'Brand systems that feel clear and easy to trust.',
-  'Landing pages that stay clear on every screen.',
-  'Reusable sections for future content growth.',
+  'Clear pages that still leave room for personality.',
+  'Layouts that stay readable without looking stiff.',
+  'Reusable sections that make future edits easier.',
 ];
 
 const features = [
@@ -21,9 +21,9 @@ const features = [
 ];
 
 const testimonials = [
-  'The page feels calm and easy to move through.',
-  'The sections are arranged in a way that makes updates simple.',
-  'It looks finished without feeling stiff.',
+  'It feels like a real person thought through the pacing.',
+  'Nothing shouts, but everything still feels considered.',
+  'It looks finished without losing any warmth.',
 ];
 
 export default function HomePage() {
@@ -32,9 +32,9 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Home</p>
-          <h1>Build a website that feels calm, clear, and human.</h1>
+          <h1>A website should feel like somebody actually cared.</h1>
           <p className="hero-text">
-            Lumen Studio keeps the structure simple and the details honest, so the page feels made by a real person.
+            Lumen Studio keeps the structure simple, the spacing honest, and the tone warm so the page feels made by a real person.
           </p>
           <div className="hero-actions">
             <Link className="button button-primary" to="/work">
@@ -86,8 +86,8 @@ export default function HomePage() {
       <section className="section">
         <SectionTitle
           eyebrow="01. Why it works"
-          title="Built to feel intentional, not template-based"
-          text="The structure guides the eye without trying too hard."
+          title="Built to guide the eye without trying too hard"
+          text="The structure gives each block enough room to land and keeps the story moving."
         />
         <div className="service-grid">
           {services.map((text) => (
@@ -105,8 +105,8 @@ export default function HomePage() {
       <section className="section">
         <SectionTitle
           eyebrow="02. Key strengths"
-          title="A few details that make the design feel finished"
-          text="Each block uses contrast, spacing, and hierarchy to stay calm."
+          title="A few details that give the page some character"
+          text="Spacing, hierarchy, and a warm palette keep it calm without feeling flat."
         />
         <div className="project-grid">
           {features.map((feature) => (
@@ -135,8 +135,8 @@ export default function HomePage() {
         <div className="process-copy">
           <SectionTitle
             eyebrow="03. Process"
-          title="Simple structure, with room for real content"
-          text="A clean workflow keeps the project easy to update."
+            title="Simple structure, with room for real content"
+            text="A small process keeps the build honest and easier to update later."
           />
           <ul className="process-list">
             <li>
@@ -166,8 +166,8 @@ export default function HomePage() {
       <section className="section">
         <SectionTitle
           eyebrow="04. Testimonials"
-          title="What the finished page feels like"
-          text="These notes mirror the kind of response the polished layout should get."
+          title="What the finished page should make people say"
+          text="These sound like real comments from someone who actually opened the page."
         />
         <div className="project-grid">
           {testimonials.map((quote) => (
@@ -185,8 +185,8 @@ export default function HomePage() {
       <section className="section">
         <SectionTitle
           eyebrow="05. Design details"
-          title="The visual system stays consistent everywhere"
-          text="Headers, cards, and spacing all follow the same calm rhythm."
+          title="The pieces that hold it together"
+          text="Type, color, and motion stay restrained, but never feel flat."
         />
         <div className="service-grid">
           <article className="service-card">
@@ -210,8 +210,8 @@ export default function HomePage() {
       <section className="section">
         <SectionTitle
           eyebrow="06. Delivery"
-          title="Ready for Firebase and GitHub workflows"
-          text="The app already has the hosting config and repo-friendly structure in place."
+          title="Ready to ship"
+          text="The app already has the Firebase and GitHub pieces in place."
         />
         <div className="contact-card">
           <div>
@@ -228,8 +228,8 @@ export default function HomePage() {
       <section className="section" id="contact-start">
         <SectionTitle
           eyebrow="07. Start here"
-          title="Ready when you are"
-          text="The site is prepared for GitHub and Firebase without extra setup friction."
+          title="Let's get the first version online"
+          text="Swap in the real content and it is ready to go."
         />
         <div className="contact-card">
           <h3>Send a message</h3>
@@ -243,8 +243,8 @@ export default function HomePage() {
       <section className="section">
         <SectionTitle
           eyebrow="08. FAQ"
-          title="What this starter is meant to do"
-          text="You can swap in real content without rebuilding the whole thing."
+          title="Questions worth answering first"
+          text="A clean setup makes future edits less painful."
         />
         <div className="service-grid">
           <article className="service-card">

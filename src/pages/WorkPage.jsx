@@ -17,9 +17,9 @@ export default function WorkPage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Work</p>
-          <h1>Project pages that feel like a finished story, not a wireframe.</h1>
+          <h1>Project pages that feel like something a person actually finished.</h1>
           <p className="hero-text">
-            Every portfolio section is tuned for clear pacing and a more human sense of finish.
+            Every portfolio section is tuned for clear pacing, a little texture, and a more human sense of finish.
           </p>
         </div>
         <div className="hero-visual" aria-hidden="true">

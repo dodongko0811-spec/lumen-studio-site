@@ -22,9 +22,9 @@ export default function ContactPage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Contact</p>
-          <h1>Tell me what you're building.</h1>
+          <h1>Tell me what you're building, even if it is still rough.</h1>
           <p className="hero-text">
-            If you already have a rough idea, that's enough to start the conversation.
+            If you already have a rough idea, that is enough to start the conversation.
           </p>
         </div>
         <div className="hero-visual" aria-hidden="true">
@@ -42,13 +42,13 @@ export default function ContactPage() {
       </section>
 
       <section className="section" id="contact-start">
-        <SectionTitle eyebrow="01. Form" title="Start the conversation" />
-        <div className="contact-card">
-          <p className="contact-label">Email</p>
-          <h3>hello@lumenstudio.dev</h3>
+          <SectionTitle eyebrow="01. Form" title="Start the conversation" />
+          <div className="contact-card">
+            <p className="contact-label">Email</p>
+            <h3>hello@lumenstudio.dev</h3>
           <p className="contact-label">Project type</p>
           <h3>Website design, React build, Firebase deploy</h3>
-          <a className="button button-primary" href="mailto:hello@lumenstudio.dev">
+            <a className="button button-primary" href="mailto:hello@lumenstudio.dev">
             Send a Message
           </a>
         </div>

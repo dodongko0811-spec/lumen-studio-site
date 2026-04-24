@@ -25,9 +25,9 @@ export default function ServicesPage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Services</p>
-          <h1>Services shaped for clear storytelling and clean execution.</h1>
+          <h1>Services shaped for clear storytelling and careful execution.</h1>
           <p className="hero-text">
-            Every page here is meant to feel usable first, polished second, and easy to maintain after launch.
+            Every page here is meant to feel usable first, polished second, and easy to keep up after launch.
           </p>
         </div>
         <div className="hero-visual" aria-hidden="true">
@@ -48,13 +48,13 @@ export default function ServicesPage() {
       </section>
 
       <section className="section">
-        <SectionTitle eyebrow="01. Overview" title="What the service stack includes" />
+        <SectionTitle eyebrow="01. Overview" title="What usually gets built" />
         <div className="service-grid">
           {serviceCards.map((label) => (
             <article key={label} className="service-card">
               <span className="card-index">01</span>
               <h3>{label}</h3>
-              <p>Designed to slot into a broader brand system without visual noise.</p>
+              <p>Designed to slot into a broader brand system without extra visual noise.</p>
             </article>
           ))}
         </div>
@@ -74,7 +74,7 @@ export default function ServicesPage() {
             <div className="project-copy">
               <p>Starter</p>
               <h3>Single concept pages</h3>
-              <span>Ideal for launches that need clarity and speed.</span>
+            <span>Good for launches that need clarity and a simple path forward.</span>
             </div>
           </article>
           <article className="project-card">
@@ -88,7 +88,7 @@ export default function ServicesPage() {
             <div className="project-copy">
               <p>Standard</p>
               <h3>Multi-page structure</h3>
-              <span>Best for brands with more than one page to share.</span>
+            <span>Best for brands that need more than one page without added clutter.</span>
             </div>
           </article>
           <article className="project-card">
@@ -102,7 +102,7 @@ export default function ServicesPage() {
             <div className="project-copy">
               <p>Growth</p>
               <h3>Design systems</h3>
-              <span>Reusable blocks for ongoing content expansion.</span>
+            <span>Reusable blocks for ongoing content changes and expansion.</span>
             </div>
           </article>
         </div>
