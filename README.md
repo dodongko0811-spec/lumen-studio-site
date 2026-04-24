@@ -30,3 +30,7 @@ npm run deploy
 ## Firebase
 
 The project is configured for Firebase Hosting under the project ID `lumen-studio-site-joynoit-2026`.
+
+Live site: https://lumen-studio-site-joynoit-2026.web.app
+
+GitHub repo: https://github.com/dodongko0811-spec/lumen-studio-site
