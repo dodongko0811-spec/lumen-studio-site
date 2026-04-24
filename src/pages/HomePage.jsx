@@ -9,7 +9,7 @@ const metrics = [
 ];
 
 const services = [
-  'Brand systems that feel premium and coherent.',
+  'Brand systems that feel clear and easy to trust.',
   'Landing pages that stay clear on every screen.',
   'Reusable sections for future content growth.',
 ];
@@ -32,9 +32,9 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Home</p>
-          <h1>Make a website that looks unforgettable from the first scroll.</h1>
+          <h1>Build a website that feels calm, clear, and genuinely cared for.</h1>
           <p className="hero-text">
-            Lumen Studio blends cinematic visuals, calm structure, and strong conversion flow into a single polished experience.
+            Lumen Studio keeps the structure simple and the details honest, so the page feels made by a real person.
           </p>
           <div className="hero-actions">
             <Link className="button button-primary" to="/work">
@@ -87,7 +87,7 @@ export default function HomePage() {
         <SectionTitle
           eyebrow="01. Why it works"
           title="Built to feel intentional, not template-based"
-          text="The structure is designed to guide the eye, tell the story, and keep the page moving."
+          text="The structure guides the eye without trying too hard."
         />
         <div className="service-grid">
           {services.map((text) => (
@@ -105,8 +105,8 @@ export default function HomePage() {
       <section className="section">
         <SectionTitle
           eyebrow="02. Key strengths"
-          title="A few details that make the design feel premium"
-          text="Each block uses contrast, spacing, and hierarchy to stay visually calm."
+          title="A few details that make the design feel finished"
+          text="Each block uses contrast, spacing, and hierarchy to stay calm."
         />
         <div className="project-grid">
           {features.map((feature) => (
@@ -135,8 +135,8 @@ export default function HomePage() {
         <div className="process-copy">
           <SectionTitle
             eyebrow="03. Process"
-            title="Simple structure, polished execution"
-            text="A clean workflow keeps the project easy to extend."
+          title="Simple structure, with room for real content"
+          text="A clean workflow keeps the project easy to update."
           />
           <ul className="process-list">
             <li>
@@ -229,7 +229,7 @@ export default function HomePage() {
         <SectionTitle
           eyebrow="07. Start here"
           title="Ready when you are"
-          text="The site is prepared for GitHub and Firebase without additional setup friction."
+          text="The site is prepared for GitHub and Firebase without extra setup friction."
         />
         <div className="contact-card">
           <h3>Send a message</h3>
@@ -244,7 +244,7 @@ export default function HomePage() {
         <SectionTitle
           eyebrow="08. FAQ"
           title="What this starter is meant to do"
-          text="The site is intentionally flexible so you can swap in real content without rebuilding the structure."
+          text="You can swap in real content without rebuilding the whole thing."
         />
         <div className="service-grid">
           <article className="service-card">

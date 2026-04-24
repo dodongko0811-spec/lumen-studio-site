@@ -19,7 +19,7 @@ export default function WorkPage() {
           <p className="eyebrow">Work</p>
           <h1>Project pages that feel like a finished story, not a wireframe.</h1>
           <p className="hero-text">
-            Every portfolio section is tuned for visual rhythm, clarity, and the sense of a polished result.
+            Every portfolio section is tuned for clear pacing and a more human sense of finish.
           </p>
         </div>
         <div className="hero-visual" aria-hidden="true">
@@ -56,7 +56,7 @@ export default function WorkPage() {
               <div className="project-copy">
                 <p>{card}</p>
                 <h3>{card}</h3>
-                <span>Presented as a premium layout with strong content hierarchy.</span>
+                <span>Presented with enough structure to feel finished, not overworked.</span>
               </div>
             </article>
           ))}
@@ -105,7 +105,7 @@ export default function WorkPage() {
         <div className="process-panel">
           <div className="process-badge">Story-first</div>
           <h3>Visual rhythm matters</h3>
-          <p>Each section needs to feel like it belongs in the same finished language.</p>
+          <p>Each section should feel like it belongs in the same voice.</p>
         </div>
       </section>
 

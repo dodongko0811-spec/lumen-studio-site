@@ -27,7 +27,7 @@ export default function ServicesPage() {
           <p className="eyebrow">Services</p>
           <h1>Services shaped for clear storytelling and clean execution.</h1>
           <p className="hero-text">
-            Every page in this build is designed to feel structured, premium, and easy to maintain.
+            Every page here is meant to feel usable first, polished second, and easy to maintain after launch.
           </p>
         </div>
         <div className="hero-visual" aria-hidden="true">
@@ -88,7 +88,7 @@ export default function ServicesPage() {
             <div className="project-copy">
               <p>Standard</p>
               <h3>Multi-page structure</h3>
-              <span>Best for brands with a larger story to tell.</span>
+              <span>Best for brands with more than one page to share.</span>
             </div>
           </article>
           <article className="project-card">
@@ -123,7 +123,7 @@ export default function ServicesPage() {
         <div className="process-panel">
           <div className="process-badge">Reusable</div>
           <h3>Section-driven development</h3>
-          <p>Every page is built from reusable, consistent blocks so future updates stay easy.</p>
+          <p>Every page is built from reusable blocks so updates stay manageable later.</p>
         </div>
       </section>
 
@@ -149,7 +149,7 @@ export default function ServicesPage() {
       </section>
 
       <section className="section">
-        <SectionTitle eyebrow="05. Audience" title="Works for premium brands that need calm clarity" />
+        <SectionTitle eyebrow="05. Audience" title="Works for brands that need calm clarity" />
         <div className="contact-card">
           <h3>Built for</h3>
           <p>Studios, cafes, portfolios, product launches, and local businesses.</p>
