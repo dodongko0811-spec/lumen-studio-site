@@ -40,7 +40,7 @@ function Shell() {
 
       <footer className="footer">
         <p>Built with React, ready for Firebase Hosting, and tracked on GitHub.</p>
-        <p>© 2026 Lumen Studio</p>
+        <p>(c) 2026 Lumen Studio</p>
       </footer>
     </div>
   );

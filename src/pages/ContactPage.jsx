@@ -24,7 +24,7 @@ export default function ContactPage() {
           <p className="eyebrow">Contact</p>
           <h1>Ready when you are.</h1>
           <p className="hero-text">
-            This contact page keeps the same premium tone while giving visitors a clear next step.
+            This contact page keeps the same tone while giving visitors a clear next step.
           </p>
         </div>
         <div className="hero-visual" aria-hidden="true">
@@ -122,7 +122,7 @@ export default function ContactPage() {
       </section>
 
       <section className="section">
-        <SectionTitle eyebrow="06. Links" title="What’s already connected" />
+        <SectionTitle eyebrow="06. Links" title="What's already connected" />
         <div className="contact-card">
           <h3>GitHub</h3>
           <p>Source control and project history are ready for the repo.</p>
@@ -154,7 +154,7 @@ export default function ContactPage() {
       </section>
 
       <section className="section">
-        <SectionTitle eyebrow="10. Final" title="Let’s build the next version" />
+        <SectionTitle eyebrow="10. Final" title="Let's build the next version" />
         <div className="contact-card">
           <p>hello@lumenstudio.dev</p>
           <a className="button button-primary" href="mailto:hello@lumenstudio.dev">
