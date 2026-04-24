@@ -7,12 +7,12 @@ const faqs = [
     a: 'React, Vite, React Router, and Firebase Hosting.',
   },
   {
-    q: 'Can it be expanded?',
-    a: 'Yes. The pages are built from reusable sections and can grow easily.',
+    q: 'Can it grow later?',
+    a: 'Yes. The sections are reusable, so the page can change with the project.',
   },
   {
-    q: 'Is it responsive?',
-    a: 'Yes. The layout adapts from desktop down to mobile screens.',
+    q: 'Will it work on phones?',
+    a: 'Yes. The layout is responsive and stays readable on smaller screens.',
   },
 ];
 
@@ -22,9 +22,9 @@ export default function ContactPage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Contact</p>
-          <h1>Tell me what you’re building.</h1>
+          <h1>Tell me what you're building.</h1>
           <p className="hero-text">
-            If you already have a rough idea, that’s enough to start the conversation.
+            If you already have a rough idea, that's enough to start the conversation.
           </p>
         </div>
         <div className="hero-visual" aria-hidden="true">
@@ -60,12 +60,12 @@ export default function ContactPage() {
           <article className="service-card">
             <span className="card-index">02</span>
             <h3>Brief</h3>
-            <p>Share your goal, audience, and content needs.</p>
+            <p>Share your goal, audience, and the content you already have.</p>
           </article>
           <article className="service-card">
             <span className="card-index">02</span>
             <h3>Build</h3>
-            <p>We shape the pages and keep the system reusable.</p>
+            <p>We shape the pages and keep the system easy to update.</p>
           </article>
           <article className="service-card">
             <span className="card-index">02</span>
@@ -81,7 +81,7 @@ export default function ContactPage() {
           <ul className="process-list">
             <li>
               <span>1</span>
-              <p>Clear content and page goals.</p>
+              <p>Clear content and a simple goal.</p>
             </li>
             <li>
               <span>2</span>
@@ -96,7 +96,7 @@ export default function ContactPage() {
         <div className="process-panel">
           <div className="process-badge">Ready</div>
           <h3>Fast turnaround</h3>
-          <p>Keeping the structure clear makes updates and deployments easier to maintain.</p>
+          <p>Keeping the structure clear makes updates and deployments easier to handle.</p>
         </div>
       </section>
 
@@ -122,7 +122,7 @@ export default function ContactPage() {
       </section>
 
       <section className="section">
-        <SectionTitle eyebrow="06. Links" title="What’s already connected" />
+        <SectionTitle eyebrow="06. Links" title="What's already connected" />
         <div className="contact-card">
           <h3>GitHub</h3>
           <p>Source control and project history are ready for the repo.</p>
@@ -154,7 +154,7 @@ export default function ContactPage() {
       </section>
 
       <section className="section">
-        <SectionTitle eyebrow="10. Final" title="Let’s build the next version" />
+        <SectionTitle eyebrow="10. Final" title="Let's build the next version" />
         <div className="contact-card">
           <p>hello@lumenstudio.dev</p>
           <a className="button button-primary" href="mailto:hello@lumenstudio.dev">

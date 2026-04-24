@@ -15,15 +15,15 @@ const services = [
 ];
 
 const features = [
-  { title: 'Editorial Layouts', text: 'Strong spacing and quiet confidence.' },
-  { title: 'Conversion Flow', text: 'A clear path from story to action.' },
-  { title: 'Responsive Rhythm', text: 'Built for desktop, tablet, and mobile.' },
+  { title: 'Layout', text: 'Enough room for the page to breathe.' },
+  { title: 'Flow', text: 'The story moves without feeling forced.' },
+  { title: 'Responsive', text: 'Works on desktop, tablet, and phone.' },
 ];
 
 const testimonials = [
-  'The page feels calm, elevated, and easy to scan.',
-  'The sections are structured in a way that makes updates simple.',
-  'It looks polished without feeling overdesigned.',
+  'The page feels calm and easy to move through.',
+  'The sections are arranged in a way that makes updates simple.',
+  'It looks finished without feeling stiff.',
 ];
 
 export default function HomePage() {
@@ -32,7 +32,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Home</p>
-          <h1>Build a website that feels calm, clear, and genuinely cared for.</h1>
+          <h1>Build a website that feels calm, clear, and human.</h1>
           <p className="hero-text">
             Lumen Studio keeps the structure simple and the details honest, so the page feels made by a real person.
           </p>
@@ -149,7 +149,7 @@ export default function HomePage() {
             </li>
             <li>
               <span>3</span>
-              <p>Polish spacing, motion, and responsiveness for every screen size.</p>
+              <p>Keep spacing, motion, and responsiveness in check on every screen size.</p>
             </li>
           </ul>
         </div>
